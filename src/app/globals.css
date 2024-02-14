@@ -9,10 +9,76 @@
 :root {
   --text-color: #ffffff;
   --secondary-color: #23225e;
+  --accent-color: #cccbff;
   --primary-color: #030037;
   --font-1: "Outfit", sans-serif;
   --font-2: "Roboto", sans-serif;
+}
 
+@keyframes colorChange1 {
+  0% {
+    background-color: #654985; /* Red */
+  }
+  25% {
+    background-color: #726383; /* Green */
+  }
+  50% {
+    background-color: #2f243b; /* Blue */
+  }
+  75% {
+    background-color: #ba96dd; /* Yellow */
+  }
+  100% {
+    background-color: #654985; /* Red again */
+  }
+}
+
+@keyframes colorChange2 {
+  0% {
+    background-color: #49478a; /* Red */
+  }
+  25% {
+    background-color: #7470d6; /* Green */
+  }
+  50% {
+    background-color: #242172; /* Blue */
+  }
+  75% {
+    background-color: #d7d6ff; /* Yellow */
+  }
+  100% {
+    background-color: #49478a; /* Red again */
+  }
+}
+
+@keyframes colorChange3 {
+  0% {
+    background-color: #8dadb8; /* Red */
+  }
+  25% {
+    background-color: #6dcae9; /* Green */
+  }
+  50% {
+    background-color: #881dec; /* Blue */
+  }
+  75% {
+    background-color: #0095c7; /* Yellow */
+  }
+  100% {
+    background-color: #8dadb8; /* Red again */
+  }
+}
+
+.circle-one {
+  animation: colorChange1 20s infinite ease-in-out;
+}
+
+.circle-two {
+  animation: colorChange2 18s infinite ease-in-out;
+}
+
+.circle-three {
+  animation: colorChange3 17s infinite ease-in-out;
 }
 
 * {
