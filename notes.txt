@@ -1,0 +1,14 @@
+logo font: outfit
+navbar font: outift
+
+hero font: outfit bold
+
+other: roboto:
+
+button: outfit semibold
+
+
+color {
+    text: white
+    bg: #030037
+}
