@@ -10,7 +10,12 @@
   --text-color: #ffffff;
   --secondary-color: #23225e;
   --accent-color: #cccbff;
+  --test-color: rgba-(124, 123, 177, 0.1);
   --primary-color: #030037;
+  --heading-color: #8cadb8;
+  --info-color: #cdcdd7;
+  --button-color: #9190dc;
+  --button-color-2: #23225e;
   --font-1: "Outfit", sans-serif;
   --font-2: "Roboto", sans-serif;
 }
@@ -81,9 +86,10 @@
   animation: colorChange3 17s infinite ease-in-out;
 }
 
-* {
+*, *::after, *::before {
   color: var(--text-color);
   font-family: var(--font-1);
+  box-sizing: border-box;
 }
 
 body {

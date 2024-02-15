@@ -10,6 +10,7 @@ export default function Header() {
         <div className="flex items-center">
           <Link href="/">
             <Image
+              priority
               className="w-[55px] relative top-[-7px]"
               src={logo}
               alt="An illustrated side profile of a panthera"
