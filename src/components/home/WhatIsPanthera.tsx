@@ -16,7 +16,7 @@ export default function WhatIsPanthera() {
         <p className="relative top-[12px] font-medium text-heading-color text-xl">WHAT IS PANTHERAS?</p>
         <p className="font-semibold text-5xl">mastering digital marketing excellence</p>
         <p className="w-[400px] text-info-color text-md font-secondary leading-relaxed">
-          Maximizing your brand's reach with our digital marketing strategies.
+          Maximizing your brand&apos;s reach with our digital marketing strategies.
           Elevate online presence and drive growth. Start your digital success
           journey now.
         </p>
