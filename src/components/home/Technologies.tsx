@@ -22,30 +22,31 @@ import { SiJquery } from "react-icons/si";
 type TechType = {
   img: JSX.Element;
   name: string;
+  id: number
 };
 
 export default function Technologies() {
   const techs: TechType[] = [
-    { img: <SiAdobephotoshop />, name: "Adobe Photoshop" },
-    { img: <SiAdobepremierepro />, name: "Adobe Premiere Pro" },
-    { img: <SiAdobeillustrator />, name: "Adobe Illustrator" },
-    { img: <IoLogoFigma />, name: "Figma" },
-    { img: <SiCanva />, name: "Canva" },
-    { img: <FaHtml5 />, name: "HTML" },
-    { img: <FaCss3Alt />, name: "CSS" },
-    { img: <SiSass />, name: "SASS" },
-    { img: <SiTailwindcss />, name: "TailwindCSS" },
-    { img: <IoLogoJavascript />, name: "JavaScript" },
-    { img: <SiTypescript />, name: "TypeScript" },
-    { img: <SiJquery />, name: "jQuery" },
-    { img: <FaReact />, name: "React" },
-    { img: <SiNextdotjs />, name: "Next.js" },
-    { img: <SiMongodb />, name: "MongoDB" },
-    { img: <SiExpress />, name: "Express.js" },
-    { img: <FaNodeJs />, name: "Node.js" },
-    { img: <FaGoogle />, name: "Google Ads" },
-    { img: <FaFacebookF />, name: "Facebook Ads" },
-    { img: <FaWordpress />, name: "WordPress" },
+    { img: <SiAdobephotoshop />, name: "Adobe Photoshop", id: 1 },
+    { img: <SiAdobepremierepro />, name: "Adobe Premiere Pro", id: 2 },
+    { img: <SiAdobeillustrator />, name: "Adobe Illustrator", id: 3 },
+    { img: <IoLogoFigma />, name: "Figma", id: 4 },
+    { img: <SiCanva />, name: "Canva", id: 5 },
+    { img: <FaHtml5 />, name: "HTML", id: 6 },
+    { img: <FaCss3Alt />, name: "CSS", id: 7 },
+    { img: <SiSass />, name: "SASS", id: 8 },
+    { img: <SiTailwindcss />, name: "TailwindCSS", id: 9 },
+    { img: <IoLogoJavascript />, name: "JavaScript", id: 10 },
+    { img: <SiTypescript />, name: "TypeScript", id: 11 },
+    { img: <SiJquery />, name: "jQuery", id: 12 },
+    { img: <FaReact />, name: "React", id: 13 },
+    { img: <SiNextdotjs />, name: "Next.js", id: 14 },
+    { img: <SiMongodb />, name: "MongoDB", id: 15 },
+    { img: <SiExpress />, name: "Express.js", id: 16 },
+    { img: <FaNodeJs />, name: "Node.js", id: 17 },
+    { img: <FaGoogle />, name: "Google Ads", id: 18 },
+    { img: <FaFacebookF />, name: "Facebook Ads", id: 19 },
+    { img: <FaWordpress />, name: "WordPress", id: 20 },
   ];
 
   return (
@@ -53,7 +54,7 @@ export default function Technologies() {
       <p className="font-medium text-heading-color text-xl">OUR TECHNOLOGIES</p>
       <div className="mt-[50px] grid grid-cols-5">
         {techs.map((item) => (
-          <div className="flex flex-col my-3 mx-8 items-center  p-5 rounded-2xl">
+          <div key={item.id} className="flex flex-col my-3 mx-8 items-center  p-5 rounded-2xl">
             <div className="my-3 text-5xl">{item.img}</div>
             <p>{item.name}</p>
           </div>

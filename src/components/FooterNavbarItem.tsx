@@ -2,11 +2,11 @@ import Link from "next/link";
 
 type Props = {
     href: string
-    children: string
+    content: string
 }
 
-export default function FooterNavbarItem({ href, children}: Props) {
+export default function FooterNavbarItem({ href, content}: Props) {
     return (
-        <Link className="text-info-color font-thin" href={href}>{children}</Link>
+        <Link className="text-info-color font-thin" href={href}>{content}</Link>
     )
 }

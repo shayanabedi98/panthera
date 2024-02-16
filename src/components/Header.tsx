@@ -22,10 +22,10 @@ export default function Header() {
         </div>
         <nav>
           <ul className="flex items-center">
-            <NavbarItem href="/" children="home" />
-            <NavbarItem href="/about" children="about" />
-            <NavbarItem href="/services" children="services" />
-            <NavbarItem href="/contact" children="contact" />
+            <NavbarItem href="/" content="home" />
+            <NavbarItem href="/about" content="about" />
+            <NavbarItem href="/services" content="services" />
+            <NavbarItem href="/contact" content="contact" />
           </ul>
         </nav>
       </header>

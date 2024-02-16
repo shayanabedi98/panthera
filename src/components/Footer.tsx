@@ -13,10 +13,10 @@ export default function Footer() {
             <Image className="w-10 relative top-3" src={logo} alt=""/>
         </div>
       <div className="flex gap-10 mt-8 w-[500px] pt-3 justify-center border-t border-t-1 border-[#dfdfdf]">
-        <FooterNavbarItem href="/" children="home" />
-        <FooterNavbarItem href="/about" children="about" />
-        <FooterNavbarItem href="/services" children="services" />
-        <FooterNavbarItem href="/contact" children="contact" />
+        <FooterNavbarItem href="/" content="home" />
+        <FooterNavbarItem href="/about" content="about" />
+        <FooterNavbarItem href="/services" content="services" />
+        <FooterNavbarItem href="/contact" content="contact" />
       </div>
       <div className="flex gap-10 my-4">
       <Link href=""><IoIosMail className="text-2xl" style={{fill:'#dfdfdf'}}/></Link>
