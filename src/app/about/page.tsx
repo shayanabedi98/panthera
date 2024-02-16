@@ -1,3 +1,12 @@
+import HeroSection from "@/components/about/HeroSection"
+import WorkWithUs from "@/components/about/WorkWithUs"
+
+
 export default function About() {
-    return <h1>About</h1>
+    return (
+        <main>
+        <HeroSection />
+        <WorkWithUs />
+        </main>
+    )
 }
