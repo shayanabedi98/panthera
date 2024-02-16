@@ -5,7 +5,7 @@ import NavbarItem from "@/components/HeaderNavbarItem";
 
 export default function Header() {
   return (
-    <div>
+    <div className="">
       <header className="flex relative mt-[30px] justify-between">
         <div className="flex items-center">
           <Link href="/">
