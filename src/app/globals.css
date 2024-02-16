@@ -74,17 +74,40 @@
   }
 }
 
+@keyframes colorChange4 {
+  0% {
+    background-color: #881dec; /* Red */
+  }
+  25% {
+    background-color: #5e08af; /* Green */
+  }
+  50% {
+    background-color: #40007c; /* Blue */
+  }
+  75% {
+    background-color: #5e08af; /* Yellow */
+  }
+  100% {
+    background-color: #881dec; /* Red again */
+  }
+}
+
 .circle-one {
-  animation: colorChange1 20s infinite ease-in-out;
+  animation: colorChange1 17s infinite ease-in-out;
 }
 
 .circle-two {
-  animation: colorChange2 18s infinite ease-in-out;
+  animation: colorChange2 15s infinite ease-in-out;
 }
 
 .circle-three {
-  animation: colorChange3 17s infinite ease-in-out;
+  animation: colorChange3 14s infinite ease-in-out;
 }
+
+.circle-four {
+  animation: colorChange4 20s infinite ease-in-out;
+}
+
 
 *, *::after, *::before {
   color: var(--text-color);

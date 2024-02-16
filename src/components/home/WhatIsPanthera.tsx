@@ -13,7 +13,7 @@ export default function WhatIsPanthera() {
         />
       </div>
       <div className="py-12 w-[600px] flex flex-col items-start justify-around">
-        <p className="relative top-[12px] font-medium text-heading-color text-xl">WHAT IS PANTHERA?</p>
+        <p className="relative top-[12px] font-medium text-heading-color text-xl">WHAT IS PANTHERAS?</p>
         <p className="font-semibold text-5xl">mastering digital marketing excellence</p>
         <p className="w-[400px] text-info-color text-md font-secondary leading-relaxed">
           Maximizing your brand's reach with our digital marketing strategies.

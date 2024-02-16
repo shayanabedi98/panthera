@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/../assets/logo-transparent2.png";
 import Link from "next/link";
-import NavbarItem from "@/components/NavbarItem";
+import NavbarItem from "@/components/HeaderNavbarItem";
 
 export default function Header() {
   return (
@@ -17,7 +17,7 @@ export default function Header() {
             />
           </Link>
           <Link href="/">
-            <p className="font-semibold text-4xl">PANTHERA</p>
+            <p className="font-semibold text-4xl">PANTHERAS</p>
           </Link>
         </div>
         <nav>

@@ -1,4 +1,4 @@
-export default function BlurredCircle() {
+export default function LayoutBlurredCircle() {
   return (
     <div className="">
       <div className="circle-one h-[850px] w-[850px] rounded-full blur-[140px] absolute top-[-100px] right-[1300px] z-[-1]"></div>
