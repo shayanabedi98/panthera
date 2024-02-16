@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Live Preview: panthera-ashen.vercel.app
+Live Preview: http://panthera-ashen.vercel.app
 
 ## Getting Started
 
