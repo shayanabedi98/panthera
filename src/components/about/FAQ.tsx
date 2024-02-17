@@ -1,8 +1,5 @@
 "use client";
 
-import { IoIosArrowUp } from "react-icons/io";
-import { IoIosArrowDown } from "react-icons/io";
-
 export default function FAQ() {
   const questions = [
     {

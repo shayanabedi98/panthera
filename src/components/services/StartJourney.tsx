@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function() {
+export default function StartJourney() {
     return (
         <div className="w-[1200px] mx-auto mt-[250px] flex flex-col items-center bg-button-color-2 py-16">
             <h1 className="font-semibold text-5xl">start your journey today</h1>
