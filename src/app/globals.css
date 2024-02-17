@@ -20,6 +20,18 @@
   --font-2: "Roboto", sans-serif;
 }
 
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @keyframes colorChange1 {
   0% {
     background-color: #654985; /* Red */
@@ -108,6 +120,9 @@
   animation: colorChange4 20s infinite ease-in-out;
 }
 
+.loading {
+  animation: loading 1s infinite ease-in-out;
+}
 
 *, *::after, *::before {
   color: var(--text-color);
@@ -120,3 +135,5 @@ body {
   margin: 0;
   padding: 0;
 }
+
+
