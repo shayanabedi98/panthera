@@ -8,7 +8,7 @@ import { IoCodeSharp } from "react-icons/io5";
 export default function OurServices() {
   return (
     <div className="mt-[250px] flex flex-col items-center">
-      <p className="font-medium text-heading-color text-xl">OUR SERVICES</p>
+      <h2 className="font-medium text-heading-color text-xl">OUR SERVICES</h2>
       <p className="font-semibold text-5xl">what we offer</p>
       <div className="flex mt-20 gap-6">
         <OurServicesCard
