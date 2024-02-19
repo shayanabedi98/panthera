@@ -15,6 +15,7 @@ type Options = {
   contentCreation: boolean;
   webDesign: boolean;
   webDevelopment: boolean;
+  socialMedia: boolean
 };
 
 export default function OurServices() {
@@ -24,6 +25,7 @@ export default function OurServices() {
     contentCreation: false,
     webDesign: false,
     webDevelopment: false,
+    socialMedia: false
   });
 
   function handleClick(name: string) {
@@ -33,11 +35,12 @@ export default function OurServices() {
       contentCreation: name == "contentCreation",
       webDesign: name == "webDesign",
       webDevelopment: name == "webDevelopment",
+      socialMedia: name == "socialMedia"
     });
   }
 
   return (
-    <div className="mt-[250px] flex p-10 justify-center gap-20">
+    <div className="mt-[500px] flex p-10 justify-center gap-20">
       <div className="flex flex-col">
         <h2 className="font-medium text-heading-color text-xl">OUR SERVICES</h2>
         <OurServicesOptions handleClick={() => handleClick("seo")} name="SEO" />
@@ -56,6 +59,10 @@ export default function OurServices() {
         <OurServicesOptions
           handleClick={() => handleClick("webDevelopment")}
           name="WEB DEVELOPMENT"
+        />
+        <OurServicesOptions
+          handleClick={() => handleClick("socialMedia")}
+          name="SOCIAL MEDIA MANAGEMENT"
         />
       </div>
       <div className="bg-button-color-2 p-10 rounded-2xl w-2/3">
@@ -100,6 +107,16 @@ export default function OurServices() {
           title="WEB DEVELOPMENT"
           description="Leverage our Web Development service with expert full-stack developers skilled in Node.js, Express, MongoDB, SQL, React, Next.js, and SASS/CSS. We deliver scalable, custom web solutions that enhance user experience and meet your unique business needs. Transform your web presence with our comprehensive tech expertise."
           style={{ display: options.webDevelopment ? "flex" : "none" }}
+          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+        />
+
+        <OurServicesInfo
+          icon={<IoCodeSharp style={{ fill: "#23225e" }} />}
+          title="SOCIAL MEDIA MANAGEMENT"
+          description="Social media management is the process of creating, scheduling, analyzing, and engaging with content posted on social media platforms. Our services help businesses maintain a strong online presence, connect with their audience, and grow their brand, ensuring consistency in voice and messaging across all channels. Would you like more detail or a specific aspect highlighted?"
+          style={{ display: options.socialMedia ? "flex" : "none" }}
           service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
           service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
           service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
