@@ -7,13 +7,7 @@ export default function HeroSection() {
       <div className="flex flex-col items-start">
         <h1 className="font-semibold text-7xl mb-10">a bit about us</h1>
         <p className="font-secondary text-white w-[600px] leading-7">
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-          et quas molestias excepturi sint occaecati cupiditate non provident,
-          similique sunt in culpa qui officia deserunt mollitia animi, id est
-          laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
-          distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-          cumque nihil impedit quo minus id quod.
+        Located in Toronto, our digital marketing startup is built on the foundation of collaboration, innovation, and expertise. Our team brings together a diverse range of skills and experiences, with a common goal: to empower businesses to thrive in the digital world. From web development and design to crafting effective marketing strategies, we leverage our combined knowledge to deliver impactful solutions tailored to each client's unique needs. We believe in the power of creativity, data-driven insights, and continuous learning to drive success for our clients. Let us be your partner in achieving your digital marketing goals.
         </p>
       </div>
       <div className="flex justify-end">

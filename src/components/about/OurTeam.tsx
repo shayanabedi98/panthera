@@ -5,9 +5,9 @@ import OurTeamCard from "./OurTeamCard";
 
 export default function OurTeam() {
   return (
-    <div className="mt-[250px] flex flex-col items-center p-10">
-      <p>OUR TEAM</p>
-      <p>meet the creative team</p>
+    <div className="mt-[260px] flex flex-col items-center p-10">
+      <p className="font-medium text-heading-color text-xl">OUR TEAM</p>
+      <p className="font-semibold text-5xl mt-[5px]">meet the creative team</p>
       <div className="flex mt-20 w-[100%] space-x-20 justify-center">
         <OurTeamCard 
           image={Arshya}
@@ -18,8 +18,6 @@ export default function OurTeam() {
           subdescription2="Lorem Ipsum"
           subdescription3="Lorem Ipsum"
           subdescription4="Lorem Ipsum"
-          className1='card-1'
-          className2="card-details-1"
         />
         <OurTeamCard
           image={Shayan}
@@ -30,8 +28,6 @@ export default function OurTeam() {
           subdescription2="Lorem Ipsum"
           subdescription3="Lorem Ipsum"
           subdescription4="Lorem Ipsum"
-          className1='card-2'
-          className2="card-details-2"
         />
         <OurTeamCard
           image={Dela}
@@ -42,8 +38,6 @@ export default function OurTeam() {
           subdescription2="Lorem Ipsum"
           subdescription3="Lorem Ipsum"
           subdescription4="Lorem Ipsum"
-          className1='card-3'
-          className2="card-details-3"
         />
       </div>
     </div>
