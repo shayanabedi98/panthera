@@ -16,8 +16,21 @@
   --info-color: #cdcdd7;
   --button-color: #9190dc;
   --button-color-2: #23225e;
+  --button-color-3: #6168DC;
   --font-1: "Outfit", sans-serif;
   --font-2: "Roboto", sans-serif;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes colorChange1 {
@@ -93,21 +106,24 @@
 }
 
 .circle-one {
-  animation: colorChange1 17s infinite ease-in-out;
+  animation: colorChange1 13s infinite ease-in-out;
 }
 
 .circle-two {
-  animation: colorChange2 15s infinite ease-in-out;
+  animation: colorChange2 12s infinite ease-in-out;
 }
 
 .circle-three {
-  animation: colorChange3 14s infinite ease-in-out;
+  animation: colorChange3 11s infinite ease-in-out;
 }
 
 .circle-four {
-  animation: colorChange4 20s infinite ease-in-out;
+  animation: colorChange4 13s infinite ease-in-out;
 }
 
+.loading {
+  animation: loading 1s infinite ease-in-out;
+}
 
 *, *::after, *::before {
   color: var(--text-color);
@@ -122,72 +138,4 @@ body {
 }
 
 
-/* .team-card-container {
-  overflow: hidden; 
-  position: relative;
-}
 
-
-.team-card-details {
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: max-height 0.5s ease, opacity 0.5s ease, visibility 0.5s;
-  will-change: max-height, opacity, visibility; 
-}
-
-.team-card-container:hover .team-card-details {
-  max-height: 1000px; 
-  opacity: 1;
-  visibility: visible;
-}
-
-.team-card-details {
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  max-height: 0;
-  opacity: 0;
-  visibility: hidden;
-  overflow: hidden;
-} */
-
-
-/* ----------------------------- */
-
-.card-details-1 {
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  overflow: hidden;
-  max-height: 0; /* Start with details collapsed */
-  opacity: 0;
-}
-
-/* When card is hovered, expand details */
-.card-1:hover .card-details-1 {
-  max-height: 900px; /* Adjust based on your content */
-  opacity: 1;
-}
-
-.card-details-2 {
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  overflow: hidden;
-  max-height: 0; /* Start with details collapsed */
-  opacity: 0;
-}
-
-/* When card is hovered, expand details */
-.card-2:hover .card-details-2 {
-  max-height: 900px; /* Adjust based on your content */
-  opacity: 1;
-}
-
-.card-details-3 {
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  overflow: hidden;
-  max-height: 0; /* Start with details collapsed */
-  opacity: 0;
-}
-
-/* When card is hovered, expand details */
-.card-3:hover .card-details-3 {
-  max-height: 900px; /* Adjust based on your content */
-  opacity: 1;
-}
