@@ -17,7 +17,8 @@ const config: Config = {
         "heading-color": "var(--heading-color)",
         "info-color": "var(--info-color)",
         "button-color-1": "var(--button-color)",
-        "button-color-2": "var(--button-color-2)"
+        "button-color-2": "var(--button-color-2)",
+        "button-color-3": "var(--button-color-3)"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
