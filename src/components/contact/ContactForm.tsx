@@ -8,7 +8,6 @@ type FormData = {
 
 export default function ContactForm() {
   async function handleSubmit(event: any) {
-    event.preventDefault();
 
     const data: FormData = {
       name: event.target.name.value,
@@ -25,7 +24,9 @@ export default function ContactForm() {
     });
 
     if (response.ok) {
-      console.log("Sent successful!!!");
+      alert('Email sent')
+    } else if (!response.ok) {
+      event.preventDefault()
     }
   }
 
