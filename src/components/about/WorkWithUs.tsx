@@ -5,7 +5,7 @@ export default function WorkWithUs() {
     <div className="mt-[250px] p-10 flex flex-col items-center">
       <div className="flex flex-col place-self-start p-10">
         <p className="font-medium text-heading-color text-xl">WORK WITH US</p>
-        <p className="font-semibold text-5xl">what makes us different</p>
+        <p className="font-semibold text-5xl mt-[5px]">what makes us different</p>
       </div>
       <div className="grid grid-cols-2 place-items-center">
         <div className="p-10">
@@ -29,8 +29,8 @@ export default function WorkWithUs() {
           <p className="leading-7 mb-6">
             On the technical front, our proficiency in front-end and back-end
             development technologies like HTML, CSS, SASS, TailwindCSS,
-            JavaScript, TypeScript, jQuery, React, Next.js, and the MEAN stack
-            (MongoDB, Express.js, Angular, and Node.js) ensures robust and
+            JavaScript, TypeScript, jQuery, React, Next.js, and the MERN stack
+            (MongoDB, Express.js, React, and Node.js) ensures robust and
             scalable web solutions. Our strategic use of Google and Facebook Ads
             maximizes your digital presence and ROI, while our skills in
             Wordpress offer flexibility and ease of use for content management.
