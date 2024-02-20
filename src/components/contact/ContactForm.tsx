@@ -22,12 +22,6 @@ export default function ContactForm() {
       },
       body: JSON.stringify(data),
     });
-
-    if (response.ok) {
-      alert('Email sent')
-    } else if (!response.ok) {
-      event.preventDefault()
-    }
   }
 
   return (
