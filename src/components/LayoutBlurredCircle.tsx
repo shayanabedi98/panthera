@@ -1,9 +1,9 @@
 export default function LayoutBlurredCircle() {
   return (
-    <div className="">
-      <div className="circle-one h-[850px] w-[850px] rounded-full blur-[140px] absolute top-[-100px] right-[1300px] z-[-1]"></div>
-      <div className="circle-two h-[1000px] w-[1000px] rounded-full blur-[140px] bg-[#49478a] absolute top-[-500px] right-[430px] z-[-1]"></div>
-      <div className="circle-three h-[850px] w-[850px] rounded-full blur-[140px] absolute top-[-100px] right-[-350px] z-[-1]"></div>
+    <div className="max-w-full relative">
+      <div className="circle-one h-[50vw] w-[50vw] rounded-full blur-[140px] absolute top-[-10vw] left-[-20vw] z-[-1]"></div>
+      <div className="circle-two h-[50vw] w-[50vw] rounded-full blur-[140px] absolute left-[24vw] top-[-25vw] z-[-1]"></div>
+      <div className="circle-three h-[50vw] w-[50vw] rounded-full blur-[140px] absolute top-[-10vw] right-[-20vw] z-[-1]"></div>
     </div>
   );
 }

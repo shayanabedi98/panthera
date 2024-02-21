@@ -50,18 +50,16 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="flex flex-col my-[250px] items-center justify-center">
-      <p className="font-medium text-heading-color text-xl">OUR TECHNOLOGIES</p>
-      <div className="mt-[50px] grid grid-cols-5">
+    <div className="flex flex-col my-[50px] items-center justify-center">
+      <p className="font-medium text-heading-color text-base">OUR TECHNOLOGIES</p>
+      <div className="mt-[6px] grid grid-cols-3">
         {techs.map((item) => (
-          <div key={item.id} className="flex flex-col my-3 mx-8 items-center  p-5 rounded-2xl">
-            <div className="my-3 text-5xl">{item.img}</div>
-            <p>{item.name}</p>
+          <div key={item.id} className="flex flex-col my-3 mx-8 items-center p-5 rounded-2xl">
+            <div className="my-3 text-3xl">{item.img}</div>
+            <p className="text-sm text-center">{item.name}</p>
           </div>
         ))}
       </div>
     </div>
   );
 }
-
-// [photoshop, premier, figma, canva, html, css, javascript, react, next, mongo, express, node, tailwind, TS, google, facebook]

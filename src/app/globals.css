@@ -143,4 +143,6 @@ body {
   padding: 0;
 }
 
-/* test123 */
+  html, body {
+    overflow-x: hidden;
+  }

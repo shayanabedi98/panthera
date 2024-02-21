@@ -7,10 +7,10 @@ import { IoCodeSharp } from "react-icons/io5";
 
 export default function OurServices() {
   return (
-    <div className="mt-[250px] flex flex-col items-center">
-      <h2 className="font-medium text-heading-color text-xl">OUR SERVICES</h2>
-      <p className="font-semibold text-5xl">what we offer</p>
-      <div className="flex mt-20 gap-6">
+    <div className="mt-[50px] flex flex-col items-center">
+      <h2 className="font-medium text-heading-color text-base mb-6">OUR SERVICES</h2>
+      <p className="font-semibold text-2xl">what we offer</p>
+      <div className="flex-wrap	flex mt-12 gap-6">
         <OurServicesCard
           image={<IoSearchSharp style={{ fill: "#23225e" }} />}
           title="SEO"
@@ -32,8 +32,8 @@ export default function OurServices() {
           description="Transform your online presence with our comprehensive web design and development services, creating stunning, user-friendly websites that drive results and growth."
         />
       </div>
-      <Link className="w-[200px] " href="/services">
-        <button className="mt-[50px] bg-button-color-1 font-medium text-xl w-[200px] h-[60px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
+      <Link href="/services">
+        <button className="my-6 bg-button-color-1 font-medium text-lg w-[120px] h-[40px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
           view services
         </button>
       </Link>
