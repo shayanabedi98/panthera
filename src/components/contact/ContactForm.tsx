@@ -9,12 +9,9 @@ type FormData = {
 };
 
 export default function ContactForm() {
-
-  const router = useRouter()
+  const router = useRouter();
 
   async function handleSubmit(event: any) {
-
-    event.preventDefault()
     const data: FormData = {
       name: event.target.name.value,
       email: event.target.email.value,
@@ -30,11 +27,12 @@ export default function ContactForm() {
     });
 
     if (response.ok) {
-      event.target.name.value = ""
-      event.target.email.value = ""
-      event.target.message.value = ""
+      event.target.name.value = "";
+      event.target.email.value = "";
+      event.target.message.value = "";
 
-      router.push('/contact/thank-you')
+      event.preventDefault();
+      router.push("/thank-you");
     }
   }
 
@@ -66,7 +64,12 @@ export default function ContactForm() {
       </div>
       <div className="flex flex-col">
         <label htmlFor="message">message</label>
-        <textarea className="text-black" name="message" id="message" required></textarea>
+        <textarea
+          className="text-black"
+          name="message"
+          id="message"
+          required
+        ></textarea>
       </div>
       <button type="submit">Send</button>
     </form>
