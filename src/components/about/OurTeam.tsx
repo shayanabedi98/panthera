@@ -14,30 +14,30 @@ export default function OurTeam() {
           title="arshya abedi"
           description="marketing specialist"
           subtitle="EXPERTISE"
-          subdescription1="Lorem Ipsum"
-          subdescription2="Lorem Ipsum"
-          subdescription3="Lorem Ipsum"
-          subdescription4="Lorem Ipsum"
+          subdescription1="SEO/SEM"
+          subdescription2="Branding"
+          subdescription3="Content Creation"
+          subdescription4="Analytics"
         />
         <OurTeamCard
           image={Shayan}
           title="shayan abedi"
           description="software engineer"
           subtitle="EXPERTISE"
-          subdescription1="Lorem Ipsum"
-          subdescription2="Lorem Ipsum"
-          subdescription3="Lorem Ipsum"
-          subdescription4="Lorem Ipsum"
+          subdescription1="Web Development"
+          subdescription2="Web Hosting"
+          subdescription3="Content Creation"
+          subdescription4=""
         />
         <OurTeamCard
           image={Dela}
           title="dela bahmani"
           description="front end engineer"
           subtitle="EXPERTISE"
-          subdescription1="Lorem Ipsum"
-          subdescription2="Lorem Ipsum"
-          subdescription3="Lorem Ipsum"
-          subdescription4="Lorem Ipsum"
+          subdescription1="UX/UI Design"
+          subdescription2="Web Development"
+          subdescription3="Content Creation"
+          subdescription4="Graphic Design"
         />
       </div>
     </div>
