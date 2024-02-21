@@ -13,6 +13,7 @@ const config: Config = {
         // "2xs": "375px",
         // "xs": "480px",
         // "ss": "580px"
+        "mx": "900px"
       },
       fontFamily: {
         primary: "var(--font-1)",

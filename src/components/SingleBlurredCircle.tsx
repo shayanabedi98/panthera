@@ -1,7 +1,7 @@
 export default function SingleBlurredCircle() {
     return (
       <div className="">
-        <div className="circle-four 2xl:h-[1350px] 2xlw-[1350px] rounded-full blur-[350px] absolute z-[-1]"></div>
+        <div className="circle-four hidden lg:flex h-[50vw] w-[50vw] rounded-full blur-[350px] absolute left-[24vw] top-[80vw] z-[-1]"></div>
       </div>
     );
   }
