@@ -1,15 +1,15 @@
 import nodemailer from "nodemailer";
 
 export default async function ContactAPI(req, res) {
-  const { name, email, message } = req.body;
+  const { name, email, message, phone } = req.body;
 
   const user = process.env.EMAIL;
   const pass = process.env.PASSWORD;
-  console.log(user, pass);
 
   const data = {
     name,
     email,
+    phone,
     message,
   };
 
@@ -25,19 +25,20 @@ export default async function ContactAPI(req, res) {
 
   try {
     const mail = await transport.sendMail({
-      from: user,
+      from: 'pantheras.info@gmail.com',
       to: "info@pantheras.ca",
       replyTo: email,
       subject: `Contact Form Submission from ${name}`,
       html: `
+        <h1 style="color: purple;">PANTHERAS</h1>
         <p>Name: ${name}</p>
         <p>Email: ${email}</p>
         <p>Message: ${message}</p>
+        <p>Phone: ${phone}</p>
         <p>Submitted on Pantheras.ca</p>
         `,
     });
 
-    console.log(pass, user);
     return res.status(200).json({ message: "Nice!" });
   } catch (error) {
     console.log(error);

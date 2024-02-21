@@ -3,7 +3,7 @@ import highFive from "@/../assets/teamwork-high-five.png";
 
 export default function HeroSection() {
   return (
-    <div className="mt-[100px] p-10 flex items-center justify-between mx-auto">
+    <div className="mt-[100px] p-10 flex items-center w-[1320px] justify-between mx-auto">
       <div className="flex flex-col items-start">
         <h1 className="font-semibold text-7xl mb-10">a bit about us</h1>
         <p className="font-secondary text-white w-[600px] leading-7">

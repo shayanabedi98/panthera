@@ -1,12 +1,13 @@
 import ContactForm from "@/components/contact/ContactForm";
-
+import ContactImage from "@/components/contact/ContactImage";
 
 export default function Contact() {
-    
   return (
-    <div>
-      <h1>Contact</h1>
+    <main>
+      <div className="flex mx-auto my-28 w-[1200px] h-[700px]">
+        <ContactImage />
         <ContactForm />
-    </div>
+      </div>
+    </main>
   );
 }
