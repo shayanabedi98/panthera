@@ -1,3 +1,4 @@
+import Head from "next/head";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -19,10 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden ${inter.className}`}>
-        <div className="container mx-auto w-[1400px]">
+      <body className={`${inter.className}`}>
+        <LayoutBlurredCircle />
+        <div className="overflow-x-hidden container mx-auto 2xl:w-[1400px]">
           <Header />
-          <LayoutBlurredCircle />
           {children}
           <Footer />
         </div>
