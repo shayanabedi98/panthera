@@ -21,7 +21,6 @@ export default async function ContactAPI(req, res) {
       user: user, // Your Zoho email address
       pass: pass, // Your Zoho password or app-specific password
     },
-
   });
 
   try {

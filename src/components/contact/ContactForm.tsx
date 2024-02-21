@@ -1,5 +1,7 @@
 "use client";
 
+import { useRouter } from "next/router";
+
 type FormData = {
   name: string;
   email: string;
@@ -7,8 +9,12 @@ type FormData = {
 };
 
 export default function ContactForm() {
+
+  const router = useRouter()
+
   async function handleSubmit(event: any) {
 
+    event.preventDefault()
     const data: FormData = {
       name: event.target.name.value,
       email: event.target.email.value,
@@ -22,6 +28,14 @@ export default function ContactForm() {
       },
       body: JSON.stringify(data),
     });
+
+    if (response.ok) {
+      event.target.name.value = ""
+      event.target.email.value = ""
+      event.target.message.value = ""
+
+      router.push('/contact/thank-you')
+    }
   }
 
   return (
