@@ -84,7 +84,7 @@ export default function ContactForm() {
       </div>
       <div className="flex flex-col w-full my-3">
         <label className="text-info-color mb-1" htmlFor="email">
-          email
+          Email
         </label>
         <input
           placeholder="johndoe@email.com"
@@ -99,7 +99,7 @@ export default function ContactForm() {
       </div>
       <div className="flex flex-col w-full my-3">
         <label className="text-info-color mb-1" htmlFor="message">
-          message
+          Message
         </label>
         <textarea
           placeholder="How can we help?"
