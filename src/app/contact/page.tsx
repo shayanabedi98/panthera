@@ -9,7 +9,7 @@ export default function Contact() {
       mt-6 
       sm:mt-12
       lg:flex-row lg:w-[90%] lg:mt-10 lg:mb-44
-      xl:mt-10 xl:mb-44      
+      xl:mt-16 xl:mb-44      
       xl:w-[1200px] xl:h-[700px] "
       >
         <ContactImage />
