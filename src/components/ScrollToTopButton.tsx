@@ -22,7 +22,7 @@ const ScrollToTopButton = () => {
 
     if (c > 0) {
       window.requestAnimationFrame(scrollToTop);
-      window.scrollTo(0, c - c / 25);
+      window.scrollTo(0, Math.max(c - c / 10, c * 0.9));
     }
   };
 
