@@ -3,9 +3,8 @@
 import { useEffect, useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
 
-
 const ScrollToTopButton = () => {
-  const [windowY, setWindowY] = useState<any>(0);
+  const [windowY, setWindowY] = useState<number>(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,7 +21,8 @@ const ScrollToTopButton = () => {
           size={50}
           className="fixed bottom-10 right-10 z-1000 rounded-full p-2 outline-none transition-opacity"
           onClick={() => {
-            setWindowY(window.scrollTo({ top: 0, behavior: "smooth" }));
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            setWindowY(0);
           }}
         />
       )}
@@ -30,8 +30,7 @@ const ScrollToTopButton = () => {
   );
 };
 
-
-export default ScrollToTopButton
+export default ScrollToTopButton;
 // const ScrollToTopButton = () => {
 //   const [isVisible, setIsVisible] = useState(false);
 
