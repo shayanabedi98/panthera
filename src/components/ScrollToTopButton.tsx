@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
 
+
 const ScrollToTopButton = () => {
-  const [windowY, setWindowY] = useState(window.scrollY);
+  const [windowY, setWindowY] = useState<any>(0);
 
   useEffect(() => {
     const handleScroll = () => {
