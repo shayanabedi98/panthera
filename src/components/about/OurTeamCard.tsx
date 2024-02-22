@@ -28,7 +28,7 @@ export default function OurTeamCard({
 
   return (
     <div
-      className="flex flex-col bg-button-color-2 mb-[200px] mt-[50px] team-card-container"
+      className="flex flex-col bg-button-color-2 my-6 team-card-container"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       style={{
@@ -37,29 +37,20 @@ export default function OurTeamCard({
       }}
     >
       <div className="bg-button-color-3">
-        <Image src={image} alt="" layout="responsive" />
+        <Image src={image} alt="" />
       </div>
-      <div className="name-desc-container mb-5">
-        <h3 className="mt-3 text-2xl pl-5">{title}</h3>
-        <p className="mt-3 pl-5 font-secondary text-[rgba(255,255,255,0.6)]">
+      <div className="name-desc-container px-5 mb-5">
+        <h3 className="mt-3 text-2xl">{title}</h3>
+        <p className="mt-3 font-secondary text-[rgba(255,255,255,0.6)]">
           {description}
         </p>
       </div>
       <div
-        className="team-card-details"
+        className="team-card-details h-[250px] absolute bottom-0 w-full bg-[rgb(35,34,94)] box-border"
         style={{
-          position: "absolute",
-          bottom: "0",
-          left: "0",
-          right: "0",
-          backgroundColor: "rgb(35,34,94)",
-          padding: "20px",
-          width: "100%",
-          boxSizing: "border-box",
           transform: isHovered ? "translateY(-40%)" : "translateY(0)",
           transition: "transform 0.5s ease, opacity 0.5s ease",
           opacity: isHovered ? 1 : 0,
-          height: "250px",
         }}
       >
         <h3 className="mt-4 pl-5 text-2xl ">{subtitle}</h3>

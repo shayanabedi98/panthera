@@ -4,7 +4,7 @@ export default function Heading() {
   return (
     <div className="heading">
       <div className="flex flex-col mt-24 md:mt-48 text-center items-center">
-        <h1 className="text-4xl md:text-6xl lg:text-8xl font-semibold leading-tight w-4/5">
+        <h1 className="text-5xl md:text-6xl lg:text-8xl font-semibold leading-tight w-4/5">
           empowering your brand&apos;s digital journey
         </h1>
         <p className="my-12 md:my-24 text-2xl font-medium">

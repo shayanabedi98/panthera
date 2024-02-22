@@ -5,10 +5,10 @@ import OurTeamCard from "./OurTeamCard";
 
 export default function OurTeam() {
   return (
-    <div className="mt-[300px] flex flex-col items-center p-10">
-      <p className="font-medium text-heading-color text-xl">OUR TEAM</p>
-      <p className="font-semibold text-5xl mt-[5px]">meet the creative team</p>
-      <div className="flex mt-20 w-[100%] space-x-20 justify-center">
+    <div className="mt-[60px] flex flex-col items-center px-5">
+      <p className="font-medium text-heading-color text-base">OUR TEAM</p>
+      <p className="text-start font-semibold text-2xl mt-6">meet the creative team</p>
+      <div className="flex flex-col mt-6 mb-[60px] w-[100%] justify-center items-center">
         <OurTeamCard 
           image={Arshya}
           title="arshya abedi"

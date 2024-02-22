@@ -48,25 +48,31 @@ export default function Header() {
           <motion.div
             initial={{ right: "-100%" }}
             animate={{ right: 0 }}
-            exit={{ right: "-100%"}}
-            className="z-[1] top-0 right-0 bg-button-color-3 absolute flex flex-col items-end w-full px-4 gap-2 h-80"
+            exit={{ right: "-100%" }}
+            className="z-[1] top-0 right-0 bg-button-color-3 absolute flex flex-col items-end w-full px-4 gap-10 h-screen text-2xl"
           >
-            <IoCloseSharp
-              onClick={() => setPhone(false)}
-              className="h-24 text-3xl"
-            />
-            <Link onClick={() => setPhone(false)} href="/">
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+            >
+              <IoCloseSharp
+                onClick={() => setPhone(false)}
+                className="h-24 text-3xl"
+              />
+            </motion.div>
+            <Link className="hover:text-button-color-1" onClick={() => setPhone(false)} href="/">
               home
             </Link>
-            <Link onClick={() => setPhone(false)} href="/about">
+            <Link className="hover:text-button-color-1" onClick={() => setPhone(false)} href="/about">
               about
             </Link>
-            <Link onClick={() => setPhone(false)} href="/services">
+            <Link className="hover:text-button-color-1" onClick={() => setPhone(false)} href="/services">
               services
             </Link>
-            <Link onClick={() => setPhone(false)} href="/contact">
+            <Link className="hover:text-button-color-1" onClick={() => setPhone(false)} href="/contact">
               contact
             </Link>
+            <div></div>
           </motion.div>
         )}
       </AnimatePresence>

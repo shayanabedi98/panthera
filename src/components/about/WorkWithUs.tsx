@@ -2,13 +2,13 @@ import Link from "next/link";
 
 export default function WorkWithUs() {
   return (
-    <div className="mt-[250px] p-10 flex flex-col items-center">
-      <div className="flex flex-col place-self-start p-10">
-        <p className="font-medium text-heading-color text-xl">WORK WITH US</p>
-        <p className="font-semibold text-5xl mt-[5px]">what makes us different</p>
+    <div className="mt-[50px] px-5 flex flex-col items-center">
+      <div className="flex flex-col place-self-start">
+        <p className="font-medium text-heading-color text-base">WORK WITH US</p>
+        <p className="font-semibold text-2xl my-6">what makes us different</p>
       </div>
-      <div className="grid grid-cols-2 place-items-center">
-        <div className="p-10">
+      <div className="grid grid-cols-1 place-items-center">
+        <div className="">
           <p className="leading-7 mb-6">
             In the digital landscape where competition is fierce and every
             detail counts, our startup stands apart through a holistic and
@@ -25,7 +25,7 @@ export default function WorkWithUs() {
             design workflows, we ensure your brand stands out visually.
           </p>
         </div>
-        <div className="p-10">
+        <div className="my-6">
           <p className="leading-7 mb-6">
             On the technical front, our proficiency in front-end and back-end
             development technologies like HTML, CSS, SASS, TailwindCSS,
@@ -44,8 +44,8 @@ export default function WorkWithUs() {
           </p>
         </div>
       </div>
-      <Link className="w-[200px]" href="/services">
-        <button className="mt-[50px] bg-button-color-1 font-medium text-xl w-[200px] h-[60px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
+      <Link className="" href="/services">
+        <button className="mt-6 bg-button-color-1 font-medium text-lg w-[120px] md:w-[200px] h-[40px] md:h-[60px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
           view services
         </button>
       </Link>
