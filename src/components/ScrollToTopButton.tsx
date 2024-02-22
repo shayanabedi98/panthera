@@ -18,7 +18,7 @@ const ScrollToTopButton = () => {
   return (
     <div className="overflow-y-hidden">
       <AnimatePresence>
-        {windowY > 300 && (
+        {windowY > 400 && (
           <motion.div initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.2}} exit={{opacity: 0}}>
             <FaArrowCircleUp
               className="fixed bottom-10 right-10 z-2 p-0.5 bg-white fill-button-color-3 hover:fill-button-color-2 cursor-pointer text-5xl rounded-full"

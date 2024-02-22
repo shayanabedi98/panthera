@@ -48,10 +48,10 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col p-24 rounded-br-2xl rounded-tr-2xl bg-button-color-2  justify-center items-start w-[50%] border-box"
+      className="flex flex-col bg-button-color-2  justify-center items-start p-3 w-[85%] border-box lg:rounded-br-2xl lg:rounded-tr-2xl lg:h-[95%] xl:w-[60%]   xl:p-24   "
     >
-      <h2 className="font-bold text-xl mb-1">Contact us</h2>
-      <div className="flex flex-col w-full my-3">
+      <h2 className="font-bold text-xl mb-1 p-2 lg:text-2xl lg:mb-5 xl:text-4xl xl:mb-2 ">Contact us</h2>
+      <div className="flex flex-col w-full my-1 p-2 xl:my-3">
         <label className="text-info-color mb-1" htmlFor="name">
           Name
         </label>
@@ -66,7 +66,7 @@ export default function ContactForm() {
           required
         />
       </div>
-      <div className="flex flex-col w-full my-3">
+      <div className="flex flex-col w-full my-1 p-2 xl:my-3">
         <label className="text-info-color mb-1" htmlFor="phone">
           Phone
         </label>
@@ -75,14 +75,14 @@ export default function ContactForm() {
           minLength={1}
           maxLength={50}
           autoComplete="off"
-          className="p-1 bg-button-color-2 border border-[rgba(130,129,187,0.4)]"
+          className="p-1 bg-button-color-2 border border-[rgba(130,129,187,0.4)] "
           type="tel"
           pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
           id="phone"
           required
         />
       </div>
-      <div className="flex flex-col w-full my-3">
+      <div className="flex flex-col w-full my-1 p-2 xl:my-3">
         <label className="text-info-color mb-1" htmlFor="email">
           Email
         </label>
@@ -97,7 +97,7 @@ export default function ContactForm() {
           required
         />
       </div>
-      <div className="flex flex-col w-full my-3">
+      <div className="flex flex-col w-full my-1 p-2 xl:my-3">
         <label className="text-info-color mb-1" htmlFor="message">
           Message
         </label>
@@ -110,7 +110,7 @@ export default function ContactForm() {
         ></textarea>
       </div>
       <button
-        className={`mt-3 bg-button-color-3 rounded-md w-full h-[40px]  hover:bg-button-color-1 transition duration-500 ease-in-out ${
+        className={`mt-3 bg-button-color-3 rounded-md  w-[50%] h-[40px]  hover:bg-button-color-1 transition duration-500 ease-in-out mx-auto lg:mt-6 xl:h-[80px] ${
           sending ? "text-gray-300" : ""
         }`}
         type="submit"
