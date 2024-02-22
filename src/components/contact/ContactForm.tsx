@@ -48,7 +48,7 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col bg-button-color-2  justify-center items-start p-3 w-[85%] border-box lg:rounded-br-2xl lg:rounded-tr-2xl lg:h-[95%] xl:w-[60%]   xl:p-24   "
+      className="flex flex-col bg-button-color-2  justify-center items-start p-3 w-[85%] border-box lg:rounded-br-2xl lg:rounded-tr-2xl lg:h-[95%] xl:w-[50%] xl:px-10 xl:py-4 xl:h-[100%] "
     >
       <h2 className="font-bold text-xl mb-1 p-2 lg:text-2xl lg:mb-5 xl:text-4xl xl:mb-2 ">Contact us</h2>
       <div className="flex flex-col w-full my-1 p-2 xl:my-3">
@@ -110,7 +110,7 @@ export default function ContactForm() {
         ></textarea>
       </div>
       <button
-        className={`mt-3 bg-button-color-3 rounded-md  w-[50%] h-[40px]  hover:bg-button-color-1 transition duration-500 ease-in-out mx-auto lg:mt-6 xl:h-[80px] ${
+        className={`mt-3 bg-button-color-3 rounded-md  w-[50%] h-[40px]  hover:bg-button-color-1 transition duration-500 ease-in-out mx-auto xl:h-[45px] ${
           sending ? "text-gray-300" : ""
         }`}
         type="submit"
