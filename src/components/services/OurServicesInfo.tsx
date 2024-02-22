@@ -21,16 +21,16 @@ export default function OurServicesInfo({
     <div className="flex-col min-h-[470px]" style={style}>
       <div>
         <div className="text-2xl mb-4 w-9 h-9 flex justify-center items-center text-center bg-[white] rounded-full">{icon}</div>
-        <h3 className="font-extrabold">{title}</h3>
+        <h3 className="font-extrabold text-xl">{title}</h3>
         <p className="my-5 text-info-color">{description}</p>
       </div>
       <div>
         <h3 className="font-bold mt-4">ADDITIONAL SERVICES</h3>
-        <div className="mt-5">
+        <div className="mt-6">
           <ul>
-            <li className="list-disc">{service1}</li>
-            <li className="list-disc">{service2}</li>
-            <li className="list-disc">{service3}</li>
+            <li className="list-disc my-4">{service1}</li>
+            <li className="list-disc my-4">{service2}</li>
+            <li className="list-disc my-4">{service3}</li>
           </ul>
         </div>
       </div>

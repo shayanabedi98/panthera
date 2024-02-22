@@ -15,7 +15,7 @@ type Options = {
   contentCreation: boolean;
   webDesign: boolean;
   webDevelopment: boolean;
-  socialMedia: boolean
+  socialMedia: boolean;
 };
 
 export default function OurServices() {
@@ -25,7 +25,7 @@ export default function OurServices() {
     contentCreation: false,
     webDesign: false,
     webDevelopment: false,
-    socialMedia: false
+    socialMedia: false,
   });
 
   function handleClick(name: string) {
@@ -35,12 +35,12 @@ export default function OurServices() {
       contentCreation: name == "contentCreation",
       webDesign: name == "webDesign",
       webDevelopment: name == "webDevelopment",
-      socialMedia: name == "socialMedia"
+      socialMedia: name == "socialMedia",
     });
   }
 
   return (
-    <div className="mt-[500px] flex p-10 justify-center gap-20">
+    <div className="my-[300px] flex p-10 justify-center gap-20">
       <div className="flex flex-col">
         <h2 className="font-medium text-heading-color text-xl">OUR SERVICES</h2>
         <OurServicesOptions handleClick={() => handleClick("seo")} name="SEO" />
@@ -69,47 +69,47 @@ export default function OurServices() {
         <OurServicesInfo
           icon={<FaChartLine style={{ fill: "#23225e" }} />}
           title="SEO (SEARCH ENGINE OPTIMIZATION)"
-          description="Maximize your online presence with our SEO service. We enhance your website's search rankings through optimized content and improved user experience, driving more traffic and conversions. Elevate your digital footprint effortlessly with us."
+          description="Maximize your online presence with our SEO service. We enhance your website&apos;s search rankings through optimized content and improved user experience, driving more traffic and conversions. Elevate your digital footprint effortlessly with us."
           style={{ display: options.seo ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Keyword Research: Identifying relevant keywords for client websites to target in their content and optimization efforts."
+          service2="On-Page Optimization: Optimizing website content, meta tags, headings, and internal linking structure to improve search engine rankings."
+          service3="Technical SEO: Conducting website audits, fixing crawl errors, improving site speed, and implementing structure data markup."
         />
         <OurServicesInfo
           icon={<GoPencil style={{ fill: "#23225e" }} />}
           title="GRAPHIC DESIGN"
-          description="Elevate your visuals with our Graphic Design service, mastering Photoshop, Canva, and Illustrator. We craft stunning graphics and illustrations that captivate your audience. With our blend of creativity and technical skill, your brand will shine in the digital landscape. Let's create visuals that stand out and speak to your audience."
+          description="Elevate your visuals with our Graphic Design service, mastering Photoshop, Canva, and Illustrator. We craft stunning graphics and illustrations that captivate your audience. With our blend of creativity and technical skill, your brand will shine in the digital landscape. Let&apos;s create visuals that stand out and speak to your audience."
           style={{ display: options.graphicDesign ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Logo Design: Creating unique and memorable logos that represent clients&apos; brands effectively."
+          service2="Branding Collateral: Designing business cards, letterheads, and other branded materials to maintain consistency across all touchpoints."
+          service3="Marketing Materials: Designing brochures, flyers, posters, and other promotional materials to support clients&apos; marketing campaigns."
         />
         <OurServicesInfo
           icon={<MdInsertPhoto style={{ fill: "#23225e" }} />}
           title="CONTENT CREATION"
-          description="Elevate your content with our service, harnessing Premiere Pro for professional video edits, Canva for stunning graphics, and optimizing for platforms like Instagram and TikTok. We craft compelling content tailored to engage your audience across these dynamic platforms, ensuring your brand not only stands out but thrives in the digital space. Let's transform your online presence with content that captures attention and sparks interaction."
+          description="Elevate your content with our service, harnessing Premiere Pro for professional video edits, Canva for stunning graphics, and optimizing for platforms like Instagram and TikTok. We craft compelling content tailored to engage your audience across these dynamic platforms, ensuring your brand not only stands out but thrives in the digital space. Let&apos;s transform your online presence with content that captures attention and sparks interaction."
           style={{ display: options.contentCreation ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Social Media Graphics: Developing eye-catching graphics for social media posts, cover images, and advertisements."
+          service2="Designing unique graphics, images, and videos optimized for each social media platform to increase engagement and drive traffic."
+          service3="Email Newsletters: Writing engaging content for email newsletters to nuture leads, promote products/services, and drive conversions."
         />
         <OurServicesInfo
           icon={<MdOutlineWeb style={{ fill: "#23225e" }} />}
           title="WEB DESIGN"
-          description="Elevate your online presence with our Web Design service, blending the power of Photoshop for exquisite graphics and Figma for seamless, interactive designs. We specialize in creating visually stunning and user-friendly websites that ensure an engaging user experience. Our expertise in these leading design tools enables us to bring your digital vision to life with precision and creativity. Let's build a website that not only looks great but also effectively communicates your brand's message."
+          description="Elevate your online presence with our Web Design service, blending the power of Photoshop for exquisite graphics and Figma for seamless, interactive designs. We specialize in creating visually stunning and user-friendly websites that ensure an engaging user experience. Our expertise in these leading design tools enables us to bring your digital vision to life with precision and creativity. Let&apos;s build a website that not only looks great but also effectively communicates your brand&apos;s message."
           style={{ display: options.webDesign ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Custom Website Design: Designing visually appealing and user-friendly websites tailored to clients&apos; brand identities and target audience."
+          service2="Responsive Design: Ensuring websites are optimized for various devices and screen sizes to provide a seamless user experience."
+          service3="User Interface (UI) Design: Creating intuitive interfaces that guide users through the website and encourage interaction and conversions."
         />
         <OurServicesInfo
           icon={<IoCodeSharp style={{ fill: "#23225e" }} />}
           title="WEB DEVELOPMENT"
           description="Leverage our Web Development service with expert full-stack developers skilled in Node.js, Express, MongoDB, SQL, React, Next.js, and SASS/CSS. We deliver scalable, custom web solutions that enhance user experience and meet your unique business needs. Transform your web presence with our comprehensive tech expertise."
           style={{ display: options.webDevelopment ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Front-End Development: Building the client-facing aspects of websites using HTML, CSS, Tailwind, React, and many more to ensure a visually appealing and interactive user experience."
+          service2="Back-End Development: Developing server-side functionality and database management systems using languages like Express.js, Node.js, MongoDB, and more to power dynamic website features."
+          service3="Website Maintenance and Support: Providing ongoing maintenance and support services to ensure clients&apos; websites are secure, up-to-date, and running smoothly."
         />
 
         <OurServicesInfo
@@ -117,9 +117,9 @@ export default function OurServices() {
           title="SOCIAL MEDIA MANAGEMENT"
           description="Social media management is the process of creating, scheduling, analyzing, and engaging with content posted on social media platforms. Our services help businesses maintain a strong online presence, connect with their audience, and grow their brand, ensuring consistency in voice and messaging across all channels. Would you like more detail or a specific aspect highlighted?"
           style={{ display: options.socialMedia ? "flex" : "none" }}
-          service1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service2="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
-          service3="Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur architecto amet rerum? Impedit, id quo."
+          service1="Social Media Strategy Development: Creating comprehensive social media strategies aligned with clients&apos; business goals, target audience, and industry trends."
+          service2="Social Listening and Engagement: Monitoring social media channels for mentions, comments, and messages, and promptly responding to inquiries, feedback, and mentions to maintain a positive brand image and foster customer relations."
+          service3="Performance Analysis and Optimization: Tracking key performance metrics (e.g., engagement rate, reach, clicks) for each social media post and campaign, analyzing the data to identify trends and insights, and optimizing future content strategies accordingly."
         />
       </div>
     </div>
