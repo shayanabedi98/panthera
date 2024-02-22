@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <div className="relative">
-      <header className="px-4 mt-[10px] flex relative justify-between">
+      <header className="px-4 mt-[10px] md:mt-[35px] flex relative justify-between">
         <div className="flex items-center">
           <Link href="/">
             <Image
