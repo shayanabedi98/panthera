@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        // "3xs": "320px",
+        // "2xs": "375px",
+        // "xs": "480px",
+        // "ss": "580px"
+        "mx": "900px"
+      },
       fontFamily: {
         primary: "var(--font-1)",
         secondary: "var(--font-2)",
