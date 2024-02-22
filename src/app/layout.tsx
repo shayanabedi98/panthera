@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import LayoutBlurredCircle from "@/components/LayoutBlurredCircle";
 import Footer from "@/components/Footer";
+import ScrollToTopButton from "@/components/ScrollToTopButton"
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +27,7 @@ export default function RootLayout({
           <LayoutBlurredCircle />
           {children}
           <Footer />
+          <ScrollToTopButton />
         </div>
       </body>
     </html>

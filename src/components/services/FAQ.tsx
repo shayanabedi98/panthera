@@ -37,7 +37,7 @@ export default function FAQ() {
   }
 
   return (
-    <div className="rounded-2xl bg-button-color-2 my-[250px] mx-auto w-[1200px] py-20 min-h-[600px]">
+    <div className="rounded-2xl bg-button-color-2 mt-[400px] mb-[250px] mx-auto w-[1200px] py-20 min-h-[600px]">
       <h1 className="w-[88%] mx-auto mb-8 font-semibold text-5xl">
         frequently asked questions
       </h1>

@@ -5,7 +5,7 @@ import OurTeamCard from "./OurTeamCard";
 
 export default function OurTeam() {
   return (
-    <div className="mt-[260px] flex flex-col items-center p-10">
+    <div className="mt-[300px] flex flex-col items-center p-10">
       <p className="font-medium text-heading-color text-xl">OUR TEAM</p>
       <p className="font-semibold text-5xl mt-[5px]">meet the creative team</p>
       <div className="flex mt-20 w-[100%] space-x-20 justify-center">
