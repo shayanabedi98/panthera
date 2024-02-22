@@ -2,13 +2,17 @@ import Link from "next/link";
 
 export default function WorkWithUs() {
   return (
-    <div className="mt-[50px] px-5 flex flex-col items-center">
+    <div className="mt-[50px] md:mt-[150px] xl:mt-[250px] px-5 xl:px-16 flex flex-col items-start">
       <div className="flex flex-col place-self-start">
-        <p className="font-medium text-heading-color text-base">WORK WITH US</p>
-        <p className="font-semibold text-2xl my-6">what makes us different</p>
+        <p className="font-medium text-heading-color text-base md:text-xl mb-6">
+          WORK WITH US
+        </p>
+        <p className="font-semibold text-2xl md:text-5xl mb-6">
+          what makes us different
+        </p>
       </div>
-      <div className="grid grid-cols-1 place-items-center">
-        <div className="">
+      <div className="grid grid-cols-1 place-items-start xl:grid-cols-1">
+        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%]">
           <p className="leading-7 mb-6">
             In the digital landscape where competition is fierce and every
             detail counts, our startup stands apart through a holistic and
@@ -25,7 +29,7 @@ export default function WorkWithUs() {
             design workflows, we ensure your brand stands out visually.
           </p>
         </div>
-        <div className="my-6">
+        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%]">
           <p className="leading-7 mb-6">
             On the technical front, our proficiency in front-end and back-end
             development technologies like HTML, CSS, SASS, TailwindCSS,
@@ -44,11 +48,13 @@ export default function WorkWithUs() {
           </p>
         </div>
       </div>
-      <Link className="" href="/services">
-        <button className="mt-6 bg-button-color-1 font-medium text-lg w-[120px] md:w-[200px] h-[40px] md:h-[60px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
-          view services
-        </button>
-      </Link>
+      <div className="flex justify-center w-full">
+        <Link className="" href="/services">
+          <button className="mb-12 mt-6 bg-button-color-1 font-medium text-lg w-[120px] md:w-[200px] h-[40px] md:h-[60px] rounded-[30px] hover:bg-button-color-2 transition duration-500 ease-in-out">
+            view services
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }
