@@ -7,7 +7,6 @@ import Link from "next/link";
 import NavbarItem from "@/components/HeaderNavbarItem";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Pexel from "@/../assets/pexels-artem-podrez-7233354.jpg"
 
 export default function Header() {
   const [phone, setPhone] = useState(false);
@@ -52,7 +51,7 @@ export default function Header() {
             exit={{ right: "-100%" }}
             style={{
               backgroundImage: `linear-gradient(90deg, var(--button-color), var(--button-color-2), var(--button-color-3))`,
-              backgroundSize: "200% 200%", // Essential for the gradient animation effect
+              backgroundSize: "200% 200%",
               animation: "navColorChange 20s ease infinite",
             }}
             className="mobile-nav z-[1] top-0 right-0 absolute flex flex-col items-end w-full px-4 gap-10 h-screen text-2xl"

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function ThankYou() {
   return (
@@ -10,10 +10,10 @@ export default function ThankYou() {
         we will be in contact with you shortly.
       </p>
       <Link className="mb-56" href="/contact">
-          <button className="font-semibold text-lg md:text-2xl w-32 md:w-48 h-12 md:h-16 bg-button-color-2 rounded-xl hover:bg-button-color-1 transition duration-500 ease-in-out">
-            return
-          </button>
-        </Link>
+        <button className="font-semibold text-lg md:text-2xl w-32 md:w-48 h-12 md:h-16 bg-button-color-2 rounded-xl hover:bg-button-color-1 transition duration-500 ease-in-out">
+          return
+        </button>
+      </Link>
     </div>
   );
 }
