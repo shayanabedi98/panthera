@@ -80,7 +80,7 @@ export default function OurServices() {
         <OurServicesInfo
           icon={<GoPencil style={{ fill: "#23225e" }} />}
           title="GRAPHIC DESIGN"
-          description="Elevate your visuals with our Graphic Design service, mastering Photoshop, Canva, and Illustrator. We craft stunning graphics and illustrations that captivate your audience. With our blend of creativity and technical skill, your brand will shine in the digital landscape. Let's create visuals that stand out and speak to your audience."
+          description="Enhance your visual content with our Graphic Design expertise, specializing in Photoshop, Canva, and Illustrator. We produce compelling graphics and illustrations designed to engage your audience. Combining creative flair with technical prowess, we ensure your brand stands out in the digital realm. Partner with us to develop visuals that make a statement and resonate with your viewers."
           style={{ display: options.graphicDesign ? "flex" : "none" }}
           service1="Logo Design: Creating unique and memorable logos that represent clients' brands effectively."
           service2="Branding Collateral: Designing business cards, letterheads, and other branded materials to maintain consistency across all touchpoints."
@@ -89,7 +89,7 @@ export default function OurServices() {
         <OurServicesInfo
           icon={<MdInsertPhoto style={{ fill: "#23225e" }} />}
           title="CONTENT CREATION"
-          description="Elevate your content with our service, harnessing Premiere Pro for professional video edits, Canva for stunning graphics, and optimizing for platforms like Instagram and TikTok. We craft compelling content tailored to engage your audience across these dynamic platforms, ensuring your brand not only stands out but thrives in the digital space. Let's transform your online presence with content that captures attention and sparks interaction."
+          description="Boost your content quality with our services, utilizing Premiere Pro for expert video editing, Canva for eye-catching graphics, and optimization for platforms such as Instagram and TikTok. We create engaging content specifically designed for these vibrant platforms, guarenteeing your brand not only distinguishes itself but also flourishes online. Transform your digital presence with content that grabs attention and courages engagement."
           style={{ display: options.contentCreation ? "flex" : "none" }}
           service1="Social Media Graphics: Developing eye-catching graphics for social media posts, cover images, and advertisements."
           service2="Designing unique graphics, images, and videos optimized for each social media platform to increase engagement and drive traffic."
