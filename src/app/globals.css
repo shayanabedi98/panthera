@@ -33,6 +33,21 @@
   }
 }
 
+@keyframes navColorChange {
+  0% {
+    background: var(--button-color);
+  }
+  33% {
+    background: var(--button-color-2);
+  }
+  66% {
+    background: var(--button-color-3);
+  }
+  100% {
+    background: var(--button-color);
+  }
+}
+
 @keyframes colorChange1 {
   0% {
     background-color: #654985; /* Red */

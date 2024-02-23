@@ -37,28 +37,30 @@ export default function FAQ() {
   }
 
   return (
-    <div className="rounded-2xl bg-button-color-2 mt-[400px] mb-[250px] mx-auto w-[1200px] py-20 min-h-[600px]">
-      <h1 className="w-[88%] mx-auto mb-8 font-semibold text-5xl">
-        frequently asked questions
-      </h1>
-      {questions.map((q, index) => {
-        return (
-          <div
-            key={index}
-            className="w-[88%] mx-auto border-b-[1px] border-solid border-[rgba(255,255,255,0.3)] py-6"
-          >
-            <button
-              className="font-bold hover:text-button-color-3 transition duration-200 ease-in-out"
-              onClick={handleClick}
+    <div className="p-2">
+      <div className="rounded-2xl bg-button-color-2 my-[50px] md:my-[250px] mx-auto max-w-[1200px] p-4 md:p-16 min-h-[500px]">
+        <h1 className="font-semibold text-2xl md:text-5xl">
+          frequently asked questions
+        </h1>
+        {questions.map((q, index) => {
+          return (
+            <div
+              key={index}
+              className="mx-auto border-b-[1px] border-solid border-[rgba(255,255,255,0.1)] py-6"
             >
-              {q.title}
-            </button>
-            <p className="mt-4 text-info-color" hidden>
-              {q.content}
-            </p>
-          </div>
-        );
-      })}
+              <button
+                className="text-start font-bold lg:hover:text-button-color-3 transition duration-200 ease-in-out"
+                onClick={handleClick}
+              >
+                {q.title}
+              </button>
+              <p className="mt-4 text-info-color" hidden>
+                {q.content}
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

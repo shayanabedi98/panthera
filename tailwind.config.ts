@@ -13,7 +13,7 @@ const config: Config = {
         // "2xs": "375px",
         // "xs": "480px",
         // "ss": "580px"
-        "mx": "900px"
+        mx: "900px",
       },
       fontFamily: {
         primary: "var(--font-1)",
@@ -25,7 +25,7 @@ const config: Config = {
         "info-color": "var(--info-color)",
         "button-color-1": "var(--button-color)",
         "button-color-2": "var(--button-color-2)",
-        "button-color-3": "var(--button-color-3)"
+        "button-color-3": "var(--button-color-3)",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
