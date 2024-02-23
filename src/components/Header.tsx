@@ -7,6 +7,7 @@ import Link from "next/link";
 import NavbarItem from "@/components/HeaderNavbarItem";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Pexel from "@/../assets/pexels-artem-podrez-7233354.jpg"
 
 export default function Header() {
   const [phone, setPhone] = useState(false);
