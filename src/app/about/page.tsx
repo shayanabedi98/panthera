@@ -3,6 +3,7 @@ import WorkWithUs from "@/components/about/WorkWithUs";
 import OurTeam from "@/components/about/OurTeam";
 import OurTeamCard from "@/components/about/OurTeamCard";
 import Heading from "@/components/about/Heading";
+import OurValues from "@/components/about/OurValues";
 
 export default function About() {
   return (
@@ -10,7 +11,8 @@ export default function About() {
       <Heading />
       <HeroSection />
       <WorkWithUs />
-      <OurTeam />
+      <OurValues />
+      {/* <OurTeam /> */}
     </main>
   );
 }

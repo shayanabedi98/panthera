@@ -19,13 +19,13 @@ export default function Footer() {
         <FooterNavbarItem href="/contact" content="contact" />
       </div>
       <div className="flex gap-10 my-4">
-        <Link href="">
+        <Link href="/contact">
           <IoIosMail className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
         <Link href="">
           <IoIosCall className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
-        <Link href="">
+        <Link target="_blank" href="https://www.instagram.com/pantherasdigital/">
           <AiFillInstagram className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
       </div>

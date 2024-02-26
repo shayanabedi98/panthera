@@ -7,7 +7,7 @@ import { IoCodeSharp } from "react-icons/io5";
 
 export default function OurServices() {
   return (
-    <div className="mt-[50px] md:mt-[150px] flex flex-col items-center">
+    <div className="mt-[50px] md:mt-[150px] xl:mt-[250px] flex flex-col items-center">
       <h2 className="font-medium text-heading-color text-base md:text-xl mb-6">OUR SERVICES</h2>
       <p className="font-semibold text-2xl md:text-5xl">what we offer</p>
       <div className="flex-wrap	flex mt-12 gap-6">
