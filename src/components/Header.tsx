@@ -24,7 +24,7 @@ export default function Header() {
             />
           </Link>
           <Link href="/">
-            <p className="font-semibold text-2xl ">PANTHERAS</p>
+            <p className="font-semibold text-2xl xl:text-3xl xl:mb-1 ">PANTHERAS</p>
           </Link>
         </div>
         <nav>
