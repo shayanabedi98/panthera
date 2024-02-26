@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function WhatIsPanthera() {
   return (
-    <div className="grid grid-cols-1 xl:grid-cols-2 p-10 mt-[150px]">
+    <div className="grid grid-cols-1 xl:grid-cols-2 p-10 mt-[150px] xl:mt-[250px]">
       <div className="flex justify-center items-center">
         <Image
           className="w-[350px] lg:w-[460px]"

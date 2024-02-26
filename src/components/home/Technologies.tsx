@@ -50,7 +50,7 @@ export default function Technologies() {
   ];
 
   return (
-    <div className="flex flex-col my-[60px] md:my-[150px] items-center justify-center">
+    <div className="flex flex-col my-[60px] md:my-[150px] xl:my-[250px] items-center justify-center">
       <p className="font-medium text-heading-color text-base md:text-lg">OUR TECHNOLOGIES</p>
       <div className="mt-[6px] grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5">
         {techs.map((item) => (

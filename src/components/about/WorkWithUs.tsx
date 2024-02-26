@@ -12,7 +12,7 @@ export default function WorkWithUs() {
         </p>
       </div>
       <div className="grid grid-cols-1 place-items-start xl:grid-cols-1">
-        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%]">
+        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%] gap-16">
           <p className="leading-7 mb-6">
             In the digital landscape where competition is fierce and every
             detail counts, our startup stands apart through a holistic and
@@ -29,7 +29,7 @@ export default function WorkWithUs() {
             design workflows, we ensure your brand stands out visually.
           </p>
         </div>
-        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%]">
+        <div className="my-6 xl:grid grid-cols-2 xl:w-[100%] gap-16">
           <p className="leading-7 mb-6">
             On the technical front, our proficiency in front-end and back-end
             development technologies like HTML, CSS, SASS, TailwindCSS,
