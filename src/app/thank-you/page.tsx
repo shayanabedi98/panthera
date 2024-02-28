@@ -1,5 +1,22 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Pantheras | Email Sent",
+  description: "",
+  keywords: [
+    "integrated digital marketing solutions",
+    "custom web design and development",
+    "ux/ui design solutions",
+    "full stack javascript development",
+    "next.js 14 dynamic web solutions",
+    "content marketing strategy",
+    "branding and graphic design solutions",
+    "seo services",
+    "social Media strategy and engagement",
+    "social media content and email marketing",
+  ],
+};
+
 export default function ThankYou() {
   return (
     <div className="flex flex-col mt-24 md:mt-48 text-center items-center	">
