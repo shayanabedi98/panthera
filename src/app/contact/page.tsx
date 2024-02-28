@@ -3,7 +3,8 @@ import ContactImage from "@/components/contact/ContactImage";
 
 export const metadata = {
   title: "Pantheras | Contact",
-  description: "",
+  description:
+    "Connect with Pantheras for top-notch digital marketing, web and design solutions. Transform your brand's presence.",
   keywords: [
     "integrated digital marketing solutions",
     "custom web design and development",

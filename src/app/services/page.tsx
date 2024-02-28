@@ -5,7 +5,8 @@ import FAQ from "@/components/services/FAQ";
 
 export const metadata = {
   title: "Pantheras | Services",
-  description: "",
+  description:
+    "Pantheras services: Tailored web development, UX/UI design, and digital marketing to boost your brand.",
   keywords: [
     "integrated digital marketing solutions",
     "custom web design and development",
