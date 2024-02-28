@@ -7,7 +7,8 @@ import OurValues from "@/components/about/OurValues";
 
 export const metadata = {
   title: "Pantheras | About",
-  description: "",
+  description:
+    "Meet Pantheras: Driving digital success with our team's expertise in marketing, web, and graphic design.",
   keywords: [
     "integrated digital marketing solutions",
     "custom web design and development",

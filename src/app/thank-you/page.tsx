@@ -2,7 +2,8 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Pantheras | Email Sent",
-  description: "",
+  description:
+    "Thank you for contacting Pantheras. Your email has been received, we'll get back to you shortly.",
   keywords: [
     "integrated digital marketing solutions",
     "custom web design and development",
@@ -16,7 +17,6 @@ export const metadata = {
     "social media content and email marketing",
   ],
 };
-
 export default function ThankYou() {
   return (
     <div className="flex flex-col mt-24 md:mt-48 text-center items-center	">

@@ -6,7 +6,8 @@ import WhatIsPanthera from "@/components/home/WhatIsPanthera";
 
 export const metadata = {
   title: "Pantheras | Home",
-  description: "",
+  description:
+    "Explore Pantheras digital innovation: web, graphic design, and marketing services to elevate your brand.",
   keywords: [
     "integrated digital marketing solutions",
     "custom web design and development",
