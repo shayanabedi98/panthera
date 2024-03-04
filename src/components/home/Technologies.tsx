@@ -56,7 +56,7 @@ export default function Technologies() {
         {techs.map((item) => (
           <div key={item.id} className="flex flex-col my-3 mx-8 items-center p-5 rounded-2xl">
             <div className="my-3 text-3xl md:text-4xl">{item.img}</div>
-            <p className="text-sm md:text-lg text-center">{item.name}</p>
+            <p className="text-sm tracking-wide md:text-lg text-center">{item.name}</p>
           </div>
         ))}
       </div>

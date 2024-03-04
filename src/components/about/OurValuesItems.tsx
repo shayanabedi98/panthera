@@ -48,7 +48,7 @@ export default function OurValuesItems() {
             return (
                 <div key={index} className="bg-button-color-2 flex flex-col items-center p-6 text-center rounded-xl">
                     <h3 className="font-semibold text-2xl">{item.title}</h3>
-                    <p className="mt-6">{item.description}</p>
+                    <p className="mt-6 tracking-wide">{item.description}</p>
                 </div>
             )
         })}

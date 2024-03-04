@@ -5,8 +5,8 @@ export default function HeroSection() {
   return (
     <div className="mt-[50px] xl:mt-[210px] px-5 xl:p-16 flex flex-col lg:flex-row items-center justify-between mx-auto ">
       <div className="flex flex-col items-center lg:items-start">
-        <h1 className="font-semibold text-4xl md:text-5xl mb-4">a bit about us</h1>
-        <p className="font-secondary text-md md:w-[500px] text-center lg:text-start text-white leading-7">
+        <h1 className="font-semibold text-4xl md:text-5xl mb-6">a bit about us</h1>
+        <p className="font-primary text-md md:w-[500px] text-center lg:text-start text-white leading-7 tracking-wide">
           Located in Toronto, our digital marketing startup is built on the
           foundation of collaboration, innovation, and expertise. Our team
           brings together a diverse range of skills and experiences, with a
