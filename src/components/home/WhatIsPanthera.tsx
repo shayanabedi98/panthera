@@ -19,7 +19,7 @@ export default function WhatIsPanthera() {
         <p className="max-w-[480px] my-6 md:my-2 xl:my-1 text-center xl:text-start font-semibold text-2xl md:text-5xl">
           mastering digital marketing excellence
         </p>
-        <p className="max-w-[380px] my-6 md:my-2 xl:my-1 text-info-color text-md font-secondary leading-relaxed">
+        <p className="max-w-[380px] my-6 md:my-2 xl:my-1 text-info-color text-md font-primary leading-relaxed">
           Maximizing your brand&apos;s reach with our digital marketing
           strategies. Elevate online presence and drive growth. Start your
           digital success journey now.

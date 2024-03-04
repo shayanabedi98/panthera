@@ -23,9 +23,13 @@ export default function Footer() {
           <IoIosMail className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
         <Link href="">
+          {/* ADD PHONE COMPONENT, IF KEPT LIKE THIS IT WILL FILL WITH CURRENT PAGE  */}
           <IoIosCall className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
-        <Link target="_blank" href="https://www.instagram.com/pantherasdigital/">
+        <Link
+          target="_blank"
+          href="https://www.instagram.com/pantherasdigital/"
+        >
           <AiFillInstagram className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
       </div>

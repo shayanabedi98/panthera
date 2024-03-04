@@ -13,7 +13,7 @@ export default function WorkWithUs() {
       </div>
       <div className="grid grid-cols-1 place-items-start xl:grid-cols-1">
         <div className="my-6 xl:grid grid-cols-2 xl:w-[100%] gap-16">
-          <p className="leading-7 mb-6">
+          <p className="leading-7 mb-6 tracking-wide">
             In the digital landscape where competition is fierce and every
             detail counts, our startup stands apart through a holistic and
             innovative approach to digital marketing. Our expertise spans across
@@ -21,7 +21,7 @@ export default function WorkWithUs() {
             design, and web development, enabling us to offer comprehensive
             solutions that meet the multifaceted needs of our clients.
           </p>
-          <p className="leading-7">
+          <p className="leading-7 tracking-wide">
             What sets us apart is not just the breadth of our services, but the
             depth of our expertise and the cutting-edge technologies we employ.
             From Adobe Photoshop, Illustrator, and Premiere Pro for unmatched
@@ -30,7 +30,7 @@ export default function WorkWithUs() {
           </p>
         </div>
         <div className="my-6 xl:grid grid-cols-2 xl:w-[100%] gap-16">
-          <p className="leading-7 mb-6">
+          <p className="leading-7 mb-6 tracking-wide">
             On the technical front, our proficiency in front-end and back-end
             development technologies like HTML, CSS, SASS, TailwindCSS,
             JavaScript, TypeScript, jQuery, React, Next.js, and the MERN stack
@@ -39,7 +39,7 @@ export default function WorkWithUs() {
             maximizes your digital presence and ROI, while our skills in
             Wordpress offer flexibility and ease of use for content management.
           </p>
-          <p className="leading-7">
+          <p className="leading-7 tracking-wide">
             Choosing us means partnering with a team that not only leverages the
             latest technologies but also possesses a deep understanding of
             digital marketing dynamics to drive your business forward. Let us
