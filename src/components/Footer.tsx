@@ -22,7 +22,7 @@ export default function Footer() {
         <Link href="/contact">
           <IoIosMail className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>
-        <Link href="">
+        <Link href="tel:+6478904176">
           {/* ADD PHONE COMPONENT, IF KEPT LIKE THIS IT WILL FILL WITH CURRENT PAGE  */}
           <IoIosCall className="text-2xl" style={{ fill: "#dfdfdf" }} />
         </Link>

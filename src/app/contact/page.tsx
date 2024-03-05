@@ -1,5 +1,6 @@
 import ContactForm from "@/components/contact/ContactForm";
 import ContactImage from "@/components/contact/ContactImage";
+import Link from "next/link";
 
 export const metadata = {
   title: "Pantheras | Contact",
@@ -22,16 +23,19 @@ export const metadata = {
 export default function Contact() {
   return (
     <main>
-      <div
-        className="flex flex-col  w-full h-[700px] mx-auto items-center
-      mt-6 
-      sm:mt-12
-      lg:flex-row lg:w-[90%] lg:mt-10 lg:mb-44
-      xl:mt-16 xl:mb-44      
+      <div className="flex flex-col  mt-6   sm:mt-12 lg:mt-10 lg:mb-44 xl:mb-44">
+        <div
+          className="flex flex-col  w-full h-[700px] mx-auto items-center
+     
+     
+      lg:flex-row lg:w-[90%] 
+      xl:mt-16       
       xl:w-[1200px] xl:h-[700px] "
-      >
-        <ContactImage />
-        <ContactForm />
+        >
+          <ContactImage />
+          <ContactForm />
+        </div>
+        <p className="bg-button-color-2 w-[250px] py-8 px-2 rounded-lg mx-auto text-center text-lg mt-1 mb-20 sm:text-2xl sm:w-[400px] lg:mt-10 ">Or call us at <span className="text-button-color-1 tracking-wider"><Link href="tel:+6478904176">(647) 890-4176</Link></span></p>
       </div>
     </main>
   );
