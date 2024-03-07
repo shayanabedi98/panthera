@@ -1,4 +1,4 @@
-Live Preview: http://panthera-ashen.vercel.app
+Live: http://pantheras.ca
 
 Pantheras.ca, is a Digital Marketing agency created by Shayan Abedi, Arshya Abedi, and Delerah Bahmani.
 
